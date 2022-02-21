@@ -87,6 +87,21 @@ body {
     margin-bottom: 12px;
 }
 
+.email-image {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.email-image img {
+    width: 80px;
+}
+
 .primary-button {
     background-color: var(--hospital-green);
     border-radius: 8px;
@@ -102,6 +117,19 @@ body {
 .login-button {
     margin-top: 14px;
     margin-bottom: 30px;
+}
+
+.resend {
+    font-size: var(--sm);
+}
+
+.resend span {
+    color: var(--very-light-pink);    
+}
+
+.resend a {
+    color: var(--hospital-green);
+    text-decoration: none;
 }
 
 @media (max-width: 640px) {
