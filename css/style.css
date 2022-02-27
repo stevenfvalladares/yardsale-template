@@ -95,7 +95,9 @@ body {
     margin-bottom: 12px;
 }
 
-.input-email {
+.input-name,
+.input-email,
+.input-password {
     margin-bottom: 22px;
 }
 

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YardSale | Login</title>
+    <!-- Main Stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+    <style>
+        .form-container {
+            margin-top: 70px;
+        }
+
+        .form div {
+            display: flex; 
+            flex-direction: column;
+        }
+
+        @media (max-width: 640px) {
+            .logo {
+                display: block;
+            }
+            .form-container {
+                height: 100%;
+            }
+            .form {
+                height: 90%;
+                justify-content: space-between;
+            }
+        }
+
+        @media (max-width: 480px) { 
+            .form {
+                height: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <div class="form-container">
+            <img src="./images/logo_yard_sale.svg" alt="logo" class="logo">
+
+            <form action="/" class="form">
+                <div>
+                    <label for="email" class="label">Email address</label>
+                    <input type="email" id="email" placeholder="yourmail@email.com" class="input input-email">
+
+                    <label for="password" class="label">Password</label>
+                    <input type="password" id="password" placeholder="********" class="input input-password">
+
+                    <input type="submit" value="Log in" class="primary-button login-button">
+                    <a href="/">Forgot my password</a>
+                </div>
+                <button class="secondary-button signup-button">Sign up</button> 
+            </form>
+        </div>
+    </div>
+</body>
+</html>
