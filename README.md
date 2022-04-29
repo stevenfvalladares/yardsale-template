@@ -1,4 +1,4 @@
-# YardSale || eCommerce Template
+# <img src="./images/logo_yard_sale.svg" width="250" height="70">
 
 Frontend developer practical course project | Platzi.
 
